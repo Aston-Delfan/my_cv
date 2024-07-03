@@ -7,13 +7,13 @@ import {
     CardTitle,
 } from '@/components/ui/card';
 
-import {Html5Plain, Css3Plain,JavascriptPlain, PhpPlain, JavaPlain, TailwindcssOriginal, MysqlPlainWordmark } from 'devicons-react';
+import {Html5Plain, Css3Plain,JavascriptPlain, PhpPlain, JavaPlain, TailwindcssOriginal, MysqlPlainWordmark, BootstrapOriginal}  from 'devicons-react';
 
 const serviceData = [
     {
         icon: <Html5Plain size={72} strokeWidth={0.8} />,
         title: "HTML",
-        description: "",
+        description: "Advance",
     },
     {
         icon: <Css3Plain size={72} strokeWidth={0.8} />,
@@ -41,6 +41,11 @@ const serviceData = [
         description: "",
     },
     {
+        icon: <BootstrapOriginal size={72} strokeWidth={0.8} />,
+        title: "Bootstrap",
+        description: "",
+    },
+    {
         icon: <MysqlPlainWordmark size={72} strokeWidth={0.8} />,
         title: "MySQL",
         description: "",
@@ -63,7 +68,7 @@ const Service = () => {
                     </CardHeader>
                     <CardContent className="p-6 flex flex-col justify-center items-center">
                         <CardTitle className="h3 font-bold">{title}</CardTitle>
-                        <CardDescription className="mt-4 text-sm">{description}</CardDescription>
+                        <CardDescription className="hidden hover:flex mt-4 text-sm">{description}</CardDescription>
                     </CardContent>
                 </Card>
             ))}
