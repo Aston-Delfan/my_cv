@@ -13,7 +13,7 @@ const serviceData = [
     {
         icon: <Html5Plain size={72} strokeWidth={0.8} />,
         title: "HTML",
-        description: "Advance",
+        description: "",
     },
     {
         icon: <Css3Plain size={72} strokeWidth={0.8} />,
@@ -68,7 +68,7 @@ const Service = () => {
                     </CardHeader>
                     <CardContent className="p-6 flex flex-col justify-center items-center">
                         <CardTitle className="h3 font-bold">{title}</CardTitle>
-                        <CardDescription className="hidden hover:flex mt-4 text-sm">{description}</CardDescription>
+                        <CardDescription className="mt-4 text-sm">{description}</CardDescription>
                     </CardContent>
                 </Card>
             ))}
