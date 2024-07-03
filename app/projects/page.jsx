@@ -16,7 +16,7 @@ const projectData = [
     image: "/work/2.png",
     category: "PHP",
     name: "School Website",
-    description: "This is a school website for entering student, teacher, and department data, using Bootstrap with Admin LTE, PHP, and MySQL.",
+    description: "This is a school website for entering student, teacher, and department data.",
     link: "/",
     github: "/",
   },

@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
         {/* icon */}
-        <div className="hidden md:flex flex-col absolute left-2/4 bottom-44 xl:bottom-12 amimate-bounce transform transition-transform duration-1000 ease-in-out">
+        <div className="hidden xl:flex flex-col absolute left-2/4 bottom-44 xl:bottom-12 amimate-bounce transform transition-transform duration-1000 ease-in-out">
           <a href="#about"><RiArrowDownSLine className="text-3xl text-primary" /></a>
         </div>
       </div>

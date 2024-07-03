@@ -28,7 +28,7 @@ const projectData = [
     image: "/work/2.png",
     category: "HTML, Boostrap, PHP, MySQL",
     name: "School Website",
-    description: "This is a school website for entering student, teacher, and department data, using Bootstrap with Admin LTE, PHP, and MySQL.",
+    description: "This is a school website for entering student, teacher, and department data.",
     link: "/",
     github: "/",
   },
@@ -57,7 +57,7 @@ const Work = () => {
         {/* slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[480px]"
+            className="h-[500px]"
             slidesPerView={1}
             breakpoints={{
               640: {
