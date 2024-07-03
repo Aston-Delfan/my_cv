@@ -18,7 +18,7 @@ const projectData = [
     name: "School Website",
     description: "This is a school website for entering student, teacher, and department data.",
     link: "/",
-    github: "/",
+    github: "https://github.com/Aston-Delfan/school_website.git",
   },
   {
     image: "/work/3.png",
