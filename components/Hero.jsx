@@ -33,12 +33,12 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <a href="https://drive.google.com/file/d/1pJ3cQlt0SsmpqX92qhB_UJnEKehAH9bJ/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1pJ3cQlt0SsmpqX92qhB_UJnEKehAH9bJ/view?usp=sharing">
                 <Button variant="secondary" className="gap-x-2">
                   Download CV
                   <Download size={18} />
                 </Button>
-              </a>
+              </Link>
             </div>
             {/* socials */}
             <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0" iconsStyles="text-foreground text-[22px] hover:text-primary transition-all" />
@@ -46,12 +46,14 @@ const Hero = () => {
           {/* image */}
           <div className="hidden xl:flex relative">
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[480px] h-[490px] bg-no-repeat absolute -top-1 -right-2"></div>
-            <DevImg containerStyles="w-[480px] h-[432px] bg-no-repeat relative bg-bottom" imgSrc='/hero/profile.png' />
+            <DevImg containerStyles="w-[480px] h-[432px] bg-no-repeat relative bg-bottom" imgSrc="/hero/profile.png" />
           </div>
         </div>
         {/* icon */}
         <div className="hidden xl:flex flex-col absolute left-2/4 bottom-44 xl:bottom-12 amimate-bounce transform transition-transform duration-1000 ease-in-out">
-          <a href="#about"><RiArrowDownSLine className="text-3xl text-primary" /></a>
+          <Link href="#about">
+            <RiArrowDownSLine className="text-3xl text-primary" />
+          </Link>
         </div>
       </div>
     </section>
